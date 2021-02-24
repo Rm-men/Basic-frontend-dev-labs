@@ -1,19 +1,39 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title></title>
+    <meta charset="UTF-8">
+    <title>Суслов Роман Владимирович</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>   
  </head>
- <frameset rows = "350,100,*">
-  <frameset cols = " 90%, 10%">
-    <frame src = "i4_tabl.html" name="tabl">
-    <frame src = "i4_numb.html" name="numb">
-  </frameset>
-  <frame src = "i4_panel.html" name = "panel">
-  <frame src = "i4_text.html" name = "text">
-  <noframes>
-    sorry,there is not a frame support in your browser.
-  </noframes>
-</frameset>
+ <body>
+<table>
+<tr>
+  <td><iframe src="i5_tabl.html" height="405" width="700"></iframe></td>
+  <td><iframe src="i5_numb.html" height="405" width="300"></iframe></td>
+</tr>
+<tr>
+  <td><iframe src="i5_panel.html" height="150" width="1008"></iframe></td>
+</tr>
+<tr><td><iframe src="i5_text.html" height="105" width="1008"></iframe></td></tr>
+</table>
+</body>
 </html>
+<!-- 
+  <table>
+  <tr>
+     <td><iframe src="i5_tabl.html" height="405" width="700"></iframe></td>
+     <td rowspan=2><iframe src="i5_numb.html" height="405" width="300"></iframe></td>
+   </tr>
+ <tr>
+
+ <tr>
+ <td><iframe src="i5_text.html" height="105" width=""></iframe></td>
+ </tr>
+ <tr>
+ <td><iframe src="i5_panel.html" height="150" width="1000"></iframe></td>
+ </tr>
+ </table> 
+ td - столбец
+ tr -строка
+-->
