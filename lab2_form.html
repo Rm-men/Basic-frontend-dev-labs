@@ -1,15 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-    <dl>
-        <dt>Термин 1</dt>
-         <dd>Определение термина 1</dd>
-        <dt>Термин 2</dt>
-         <dd>Определение термина 2</dd>
-      </dl>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Registration form</title>
+    <style></style>
+  </head>
+  <body>
+    <form
+      action="mailto:ro.sym@yandex.ru"
+      enctype="text/plain"
+      name="maket"
+    >
+    <p>
+        <label for="number">Identification Number:</label><br /><input
+          type="text"
+          id="number"
+          size="20"
+          required
+        />
+      </p>
+    <p>
+        <label for="number">Legal Name:</label><br /><input
+          type="text"
+          id="number"
+          size="80"
+          required
+        />
+      </p>
+      <p>
+        <label for="number">Address 1:</label><br /><input
+          type="text"
+          id="number"
+          size="80"
+          required
+        />
+      </p>
+      <p>
+        <label for="number">Address 2:</label><br /><input
+          type="text"
+          id="number"
+          size="80"
+          required
+        />
+      </p>
+      <table>
+        <tr>
+          <td>
+            <label for="City">City:</label><br /><input
+              autocomplete="on"
+              type="text"
+              id="City"
+              size="20"
+              required
+            />
+          </td>
+          <td>
+            <label for="State">State:</label><br /><input
+              autocomplete="on"
+              type="text"
+              id="State"
+              size="13"
+              required
+            />
+          </td>
+          <td>
+            <label for="Zip">Zip:</label><br /><input
+              autocomplete="on"
+              type="text"
+              id="Zip"
+              size="19px"
+              required
+            />
+          </td>
+          <td>Country:<br /><select>
+              <option value="1" selected>United States</option>
+              <option value="2">Russia</option>
+              <option value="3">Germany</option>
+              <option value="4">China</option>
+              <option value="5">Turkey</option>
+              <option value="6">Canada</option>
+              <option value="7">Other</option>  
+
+            </select>
+          </td>
+        </tr>
+        <p></p>
+        <table>
+          <tr>
+            <td>
+              <label for="Phone">Phone:</label><br /><input
+                autocomplete="on"
+                type="text"
+                id="Phone"
+                size="20"
+                required
+              />
+            </td>
+            <td>
+              <label for="Email">Email:</label><br /><input
+                autocomplete="on"
+                type="email"
+                id="Email"
+                size="54"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        <p></p>
+        <p></p>
+        <table>
+            <p>
+                <tr>
+                    <td style = "text-indent: 483px;"><button type="reset" >Reset</button></td>
+                    <td><input type="submit" value="Submit" /></td>
+                  </tr>
+            </p>
+        </table>
+      </table>
+  </body>
 </html>
