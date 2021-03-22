@@ -1,0 +1,34 @@
+.l1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 35px;
+    margin-right: -11px;
+    }
+ .l1 li {
+    width: 252px;
+    height: 368px;
+    margin: 0 0px 0 0;
+    padding: 0;
+    display: inline-block;
+    margin-top: -3px;
+    }
+    .blue{
+        position: absolute;
+    width: 35px;
+    height: 367px;
+    left: 0px;
+    top: 1px;
+    margin-top: 81px;
+    background: #2998E2;
+    }
+    .next{
+        position: absolute;
+    width: 36px;
+    height: 368px;
+    left: 0px;
+    top: 0px;
+    margin-left: 1264px;
+    margin-top: 81px;
+    background: rgba(0, 0, 0, 0.33);
+    }
