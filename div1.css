@@ -16,16 +16,16 @@
     .blue{
         position: absolute;
     width: 35px;
-    height: 367px;
+    height: 368px;
     left: 0px;
-    top: 1px;
+    top: -1px;
     margin-top: 81px;
     background: #2998E2;
     }
     .next{
         position: absolute;
     width: 36px;
-    height: 368px;
+    height: 367px;
     left: 0px;
     top: 0px;
     margin-left: 1264px;
