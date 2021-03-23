@@ -1,0 +1,50 @@
+.l4_st1_bl{
+    position: absolute;
+width: 407px;
+height: 383px;
+left: 16px;
+bottom: 480px;
+}
+.l4_st1 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.l4_st1 li {
+    width: 42px;
+    height: 56px;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+
+.l4_st3_bl{
+    position: absolute;
+    width: 408px;
+    height: 383px;
+    right: 15px;
+    bottom: 480px;    
+}
+.l4_st3 {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.l4_st3 li {
+    width: 42px;
+    height: 56px;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+.l4_st2_bl {
+    position: absolute;
+    width: 435px;
+    height: 383px;
+    right: 419px;
+    bottom: 480px;
+}
+.l4_st2 {
+    width: 408px;
+    height: 346px;
+    left: 0px;
+    top: 37px;
+}
