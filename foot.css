@@ -1,0 +1,110 @@
+
+.endn{
+    position: absolute;
+width: 100px;
+height: 20px;
+left: 24px;
+top: 3px;
+}
+
+.end{
+    position: absolute;
+width: 1268px;
+height: 23px;
+left: 1px;
+top: 234px;
+}
+
+.f_3 {
+    position: absolute;
+    width: 202px;
+    height: 129px;
+    left: 2px;
+    top: 38px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 665px;
+}
+.f_3 li {
+    width: 63px;
+    height: 63px;
+    margin: 0 1px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+.f_bl3 {
+    position: absolute;
+width: 202px;
+height: 167px;
+left: 650px;
+top: 10px;
+}
+
+.flickr {
+    position: absolute;
+width: 202px;
+height: 167px;
+left: 650px;
+top: 10px;
+
+}
+
+.f__bl2{
+    position: absolute;
+width: 202px;
+height: 164px;
+left: 422px;
+top: 7px; 
+}
+.f_2 {
+    position: absolute;
+    width: 250px;
+    height: 164px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 35px;
+
+}
+.f_2 li {
+    width: 54px;
+    height: 54px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.f_1bl{
+    position: absolute;
+width: 391px;
+height: 197px;
+left: 0px;
+top: 10px;
+}
+
+.f1 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 197px;
+    top: 38.4px;
+    list-style-type: none;
+}
+.f1 li {
+width: 124px;
+height: 38px;
+
+    margin: 0 7px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+footer{
+    position: absolute;
+width: 1274px;
+height: 257px;
+right: 11px;
+bottom: 11px;
+margin-top: 1934px;
+}
