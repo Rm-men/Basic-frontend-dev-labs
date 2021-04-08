@@ -6,11 +6,19 @@
 @media (min-width: 768px) {
     .pc_logo {
     background: url('imgs/d_l2_logo_p.png');
+    background-size: cover;
   }
 }
 
 .foot_logo  {
     background-color: RGB(37, 43, 66);
+   
+}
+@media (min-width: 768px) {
+    .foot_logo {
+        background: url('imgs/foot_p.png'); 
+        background-size: cover;
+  }
 }
 .text-orange {
     color: rgb(250, 74, 12);
@@ -20,11 +28,7 @@
     background-color: rgb(250, 74, 12);
 }
 
-@media (min-width: 768px) {
-    .foot_logo {
-        background: url('imgs/foot_p.png'); 
-  }
-}
+
 .opacity_100{
     opacity: 1.0; /* Полупрозрачность элемента */
    }
