@@ -12,9 +12,22 @@
 .foot_logo  {
     background-color: RGB(37, 43, 66);
 }
+.text-orange {
+    color: rgb(250, 74, 12);
+}
+
+.bg-orange {
+    background-color: rgb(250, 74, 12);
+}
 
 @media (min-width: 768px) {
     .foot_logo {
         background: url('imgs/foot_p.png'); 
   }
 }
+.opacity_100{
+    opacity: 1.0; /* Полупрозрачность элемента */
+   }
+.opacity_0{
+    opacity: 0.0; /* Полупрозрачность элемента */
+   }
