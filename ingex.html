@@ -14,44 +14,69 @@
     />
 </head>
 
-    <header class= "">
-        <div class="flex pl-4 mx-auto  container">
-            <img class="self-center text-center" src="./imgs/Logo.png"  alt="">
-            <ul class=" md:flex  hidden self-center" style = "color: #B5B5B5;">               
-                <li class="mr-3">
-                <p class="font-bold ">ABOUT</p> 
-                </li>
-                <li class="mr-3">
-                  <p class="font-bold px-8">GALLERY</p>
-                </li>
-                <li class="mr-3">
-                  <p class="font-bold px-8">PRICING</p>
-                </li>
-                <li class="mr-3">
-                  <p class="font-bold px-8">FAQ</p>
-                </li>
-                <li class="mr-3">
-                  <p class="font-bold px-8">BENEFIS</p>
-                </li>
-              </ul>
-              <section class="grid grid-cols-2 container flex">
-                <button class="self-center text-butt-orange py-3 px-20 " onclick="buton()">Sign in</button>
-                <button class="self-center text-butt-white py-3 px-20" onclick="buton()"> Sign up</button>
-              </section>
-          </div>
+    <header class= "" style="margin-top:4rem;">
+     <div  class= "flex justify-between container mx-auto " style = "color: #B5B5B5;">
+        <div class= "hidden md:flex flex justify-between container mx-auto ">
+            <div>
+                <img class="self-center text-center" src="./imgs/Logo.png"  style = "color: #B5B5B5;" alt="">
+            </div>
+            <div>
+                <p class="">ABOUT</p> 
+            </div>
+            <div>
+                <p class="">GALLERY</p> 
+            </div>
+            <div>
+                <p class=" ">PICING</p> 
+            </div>
+            <div>
+                <p class="">FAQ</p> 
+            </div>
+            <div>
+                <p class="">BENEFITS</p> 
+            </div>
+        </div>
+        <div>
+            <button class="self-center text-butt-orange  " onclick="buton()">Sign in</button>
+        </div>
+        <div>
+            <button class="self-center text-butt-white " onclick="buton()"> Sign up</button>
+        </div>
+    </div>
     </header>
 
-    <body class= "bg-indigo-900">
-        <div class="container md:flex flex-none mx-auto px-12">
-            <section class=""> 
-                <img class="place-items-center  md:hidden text-center" src="./imgs/l1_logo.png"  alt="">
+    <body class= "mt-28">
+        <div class="flex container mx-auto mt-32">
+            <div class=" self-center">
+                <p class = "text-high-cyan text-left">Many reasons to get up and start to get back in the business </p>
+                <p class = "text-low-gray text-left" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
+                <button class="mb-16 text-butt-orange  " onclick="buton()"> Demo</button>
+                <section class= "flex self-center">
+                    <img class="self-center" src="./imgs/l2_play.png"  alt="">
+                    <div>
+                        <p class = "text-low-gray  md:text-left " >The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                        <p class = " md:text-left " style = "color: #6D6D78;">Watch preview</p> 
+                    </div>
+                </section>
+            </div>
+            <section class="flex-none"> 
+              <img class="" src="./imgs/l1_logo.png"  alt="">
             </section>
+        </div>
+        <!--Старый метод первой линии
+        <div class="container md:flex flex-none mx-auto px-12 mt-32">
+            <section class="flex-none"> 
+                <img class="place-items-center  md:hidden flex-none" src="./imgs/l1_logo.png"  alt="">
+            </section>
+       
             <div class="self-center">
               <p class = "text-high-cyan text-left">Many reasons to get up and start to get back in the business </p>
               <p class = "text-low-gray text-left" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
               <section class="self-center flexpx-8 md:px-0">
-                <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
-                <button class="mb-32 text-butt-orange  py-3 px-20" onclick="buton()"> Demo</button>
+                <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
+                <button class="mb-32 text-butt-orange  " onclick="buton()"> Demo</button>
+                
                 <section class= "flex self-center">
                     <img class="place-items-center text-center" src="./imgs/l2_play.png"  alt="">
                     <p class = "text-low-gray  md:text-left " >The harder you work for something, the greater you’ll feel when you achieve it.</p>
@@ -59,14 +84,16 @@
                 </section>
             </section>
             </div>
+        
               <section class=""> 
                 <img class="place-items-center md:flex md:items-center md:w-auto hidden self" src="./imgs/l1_logo.png"  alt="">
               </section>
             </div>
-            <img class="place-items-center opacity-50 hidden md:flex mt-16" src="./imgs/l3_logos.png"  alt="">
+            -->
+            <img class="mx-auto opacity-50 hidden md:flex mt-16" src="./imgs/l3_logos.png"  alt="">
             <section class="mt-16">
                 <p class = "text-high-cyan text-center " >Your choice</p>
-                <p class = "text-low-gray text-center " >There are many reasons to get down and start to get depressed about your situation. </p>      
+                <p class = "text-low-gray text-center mt-4" >There are many reasons to get down and start to get depressed about your situation. </p>      
                 <section class="self-center mt-8">
                     <div class="grid grid-cols-3 gap-4 mx-auto container flex" >
                         <div class="">
@@ -74,7 +101,6 @@
                         </div>
                         <div>
                             <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_2.png">
-
                         </div>
                         <div>
                             <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_3.png">
@@ -97,75 +123,88 @@
                 <div class=" self-center">
                   <p class = "text-high-cyan text-left " >Increase your business traffic </p>
                   <p class = "text-low-gray text-left mt-8" >We are committed to processing the information in order to contact you and talk about your project. </p>
-                    <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
+                    <button class="mt-12 text-butt-white " onclick="buton()"> Learn more</button>
                 </div>
-                <section class="flex"> 
-                  <img class="self-center" src="./imgs/l_4.png"  alt="">
+                <section class="flex-none"> 
+                  <img class="" src="./imgs/l_4.png"  alt="">
                 </section>
             </div>
             <section class = "container mx-auto">
                 <p class = "text-high-cyan text-center mt-32" >3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</p>
-                <p class = "text-low-gray  text-center" >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>      
-                <section class="self-center">
-                    <div class="grid grid-cols-3 gap-4 mx-auto container flex" >
+                <p class = "text-low-gray  text-center mt-6" >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>      
+                <section class="self-center mt-8">
+                    <div class="justify-around mx-auto container flex" >
                         <div class="">
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l5_1.png">
+                            <p class = "text-high-cyan text-center " >100+</p>
+                            <p class = "text-low-gray  text-center " >5 Reasons To Purchase</p>      
+                            <p class = "text-low-gray  text-center " >Desktop Computers</p>     
                         </div>
                         <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l5_2.png">
+                            <p class = "text-high-cyan text-center " >43,000+</p>
+                            <p class = "text-low-gray  text-center " >3 Simple Ways To Save A Bunch Of </p>      
+                            <p class = "text-low-gray  text-center " >Money When Buying A New Computer</p>    
+                        </div>
+                        <div>
+                            <p class = "text-high-cyan text-center " >30+</p>
+                            <p class = "text-low-gray  text-center " >A Discount Toner Cartridge</p>    
+                            <p class = "text-low-gray  text-center " >Is Better Than Ever And You</p>    
+                            <p class = "text-low-gray  text-center " >Will Save 50 Or More</p>    
 
-                        </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l5_3.png">
+
                         </div>
                       </div>
                 </section>
             </section>
-            <section class = "mx-auto container justify-cente text-center">
+            <section class = "mx-auto container justify-center text-center mt-32">
                 <p class = "text-high-cyan text-center" >Create your next project with startup framework</p>
                 <section class="self-center container mx-auto ">
-                    <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()">Get started</button>
+                    <button class="mt-12 text-butt-white " onclick="buton()">Get started</button>
                 </section>
                 <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l6.png">
             </section>
-            <div class="md:flex flex-none container mx-auto px-12">
-                <div class=" self-center">
-                  <p class = "text-high-cyan text-left" >Invest property for better business </p>
-                  <p class = "text-low-gray text-left" >We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information. </p>
-                  <section class="self-center flexpx-8 md:px-0">
-                    <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
+            <div class="md:flex flex-none container mx-auto px-12 l7_bg ">
+                <div class=" self-center ">
+                  <p class = "text-high-cyan text-left " >Invest property for better business </p>
+                  <p class = "text-low-gray text-left mt-8" >We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information. </p>
+                  <section class="self-center flexpx-8 md:px-0 ">
+                    <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
                     </section>
                 </div>
-                <section class=" self-center"> 
-                  <img class="place-items-center" src="./imgs/l7.png"  alt="">
+                <section class="flex-none" > 
+                  <img class=""  src="./imgs/l7.png"  alt="">
                 </section>
             </div>
-            <div class="container md:flex flex-none mx-auto px-12">
-                <section class=""> 
-                  <img class="place-items-center md:flex md:items-center md:w-auto hidden self" src="./imgs/l8.png"  alt="">
-                </section>
-                <div class="self-center">
-                  <p class = "text-high-cyan md:text-left " >Help Finding Information Online</p>
-                  <p class = "text-low-gray text-left " >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>
-                </div>
-                    <div class="grid grid-cols-1 gap-4 mx-auto container flex" >
+            <div class="container md:flex flex-none mx-auto">
+                <img class=" flex-none place-items-center md:flex md:items-center md:w-auto hidden self" src="./imgs/l8.png"  alt="">
+                <div class="container self-center ">
+                    <div class="self-start">
+                      <p class = "text-high-cyan md:text-left " style = "font-size: 26px;">Help Finding Information Online</p>
+                      <p class = "text-low-gray text-left " >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-8 mx-auto container flex" >
                         <div class="">
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l8_g1.png">
+                            <img class="" src="./imgs/l8_p1.png"  alt="">
+                            <p class = "text-high-cyan md:text-left " style = "font-size: 26px;">Feature One</p>
+                            <p class = "text-low-gray text-left " >Fully customizable and neatly organized components will help you work faster </p>
                         </div>
                         <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l8_g2.png">
+                            <img class="" src="./imgs/l8_p2.png"  alt="">
+                            <p class = "text-high-cyan md:text-left " style = "font-size: 26px;">Feature Two</p>
+                            <p class = "text-low-gray text-left " >Fully customizable and neatly organized components will help you work faster </p>
                         </div>
                     </div>
+                </div>
+
                   <section class=""> 
                     <img class="place-items-center  md:hidden text-center" src="./imgs/l8.png"  alt="">
                   </section>
-             </div>
+                </div>
              <div class= "foot_logo mt-32">
                  <div class= "bg-indigo-900 container mx-auto" style=" background-image: none; ">
                     <p class= "text-center text-high-orange">There are many reasons to get down</p>
                     <p class= "text-center text-low-gray mt-4">There are many reasons to get down and start to get depressed about your situation. </p>
                     <section class="self-center container mx-auto text-center">
-                        <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
+                        <button class="mt-12 text-butt-white " onclick="buton()"> Learn more</button>
                     </section>
                     <p class= "text-center text-bold mt-2" style = "color: #8476AA">No spam. Only releases, updates and discounts</p>
                 </div>
