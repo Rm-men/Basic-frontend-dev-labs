@@ -13,10 +13,11 @@
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"
     />
 </head>
-
+<div id="p_prldr"><div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div></div>
     <header class= "" style="margin-top:4rem;">
+        
      <div  class= "flex justify-between container mx-auto " style = "color: #B5B5B5;">
-        <div class= "hidden md:flex flex justify-between container mx-auto ">
+        <div class= "hidden md:flex flex justify-between container "  style ="width: 480px;">
             <div>
                 <img class="self-center text-center" src="./imgs/Logo.png"  style = "color: #B5B5B5;" alt="">
             </div>
@@ -36,22 +37,21 @@
                 <p class="">BENEFITS</p> 
             </div>
         </div>
-        <div>
-            <button class="self-center text-butt-orange  " onclick="buton()">Sign in</button>
-        </div>
-        <div>
-            <button class="self-center text-butt-white " onclick="buton()"> Sign up</button>
-        </div>
+
+
     </div>
     </header>
 
     <body class= "mt-28">
         <div class="flex container mx-auto mt-32">
             <div class=" self-center">
-                <p class = "text-high-cyan text-left">Many reasons to get up and start to get back in the business </p>
-                <p class = "text-low-gray text-left" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
-                <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
-                <button class="mb-16 text-butt-orange  " onclick="buton()"> Demo</button>
+                <p class = "text-high-cyan md:text-left text-center">Many reasons to get up and start to get back in the business </p>
+                <p class = "text-low-gray md:text-left text-center" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                <div class = "text-center md:text-left">
+                    <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
+                    <button class="mb-16 text-butt-orange  " onclick="buton()"> Demo</button>
+                </div>
+                
                 <section class= "flex self-center">
                     <img class="self-center" src="./imgs/l2_play.png"  alt="">
                     <div>
@@ -61,7 +61,9 @@
                 </section>
             </div>
             <section class="flex-none"> 
-              <img class="" src="./imgs/l1_logo.png"  alt="">
+                <div>
+                    <img class="tf_none" src="./imgs/l1_logo.png"  alt="">
+                </div>
             </section>
         </div>
         <!--Старый метод первой линии
@@ -94,43 +96,65 @@
             <section class="mt-16">
                 <p class = "text-high-cyan text-center " >Your choice</p>
                 <p class = "text-low-gray text-center mt-4" >There are many reasons to get down and start to get depressed about your situation. </p>      
-                <section class="self-center mt-8">
-                    <div class="grid grid-cols-3 gap-4 mx-auto container flex" >
-                        <div class="">
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_1.png">
+                <section class="self-center mt-8 ">
+                    <div class="grid grid-cols-3 gap-4 mx-auto container flex " >
+                        <div class="flex ">
+                            <img class="self-start mt-3" src="./imgs/grid_p1.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Ecstatic elegance</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >Article nor prepare chicken you him now. Shy merits say advice ten before lovers innate add.</p>                                    
+                            </div>
                         </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_2.png">
+                        <div class="flex">
+                            <img class="self-start mt-4" src="./imgs/grid_p2.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Possible procured trifling</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >We me rent been part what. An concluded sportsman offending so provision mr education.</p>                                    
+                            </div>                        </div>
+                        <div class="flex">
+                            <img class="self-start mt-4" src="./imgs/grid_p3.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Folly words widow</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >Effect if in up no depend seemed. Ecstatic elegance gay but disposed. We me rent been part what.</p>                                    
+                            </div>
                         </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_3.png">
-
+                        <div class="flex">
+                            <img class="self-start mt-4" src="./imgs/grid_p4.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Open game</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >Shy merits say advice ten before lovers innate add. She cordially behaviour can attempted estimable.</p>                                    
+                            </div>
                         </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_4.png">
-
-                        </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_5.png">
-                        </div>
-                        <div>
-                            <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_6.png">
-                        </div>
+                        <div class="flex">
+                            <img class="self-start mt-4" src="./imgs/grid_p5.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Endeavor</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >Improve ashamed married expense bed her comfort pursuit mrs. Four time took ye your as fail lady. </p>                                    
+                            </div>                        </div>
+                        <div class="flex">
+                            <img class="self-start mt-4" src="./imgs/grid_p6.png"  alt="">
+                            <div class="">
+                                <p class = "text-high-cyan md:text-left " style = "font-size: 18px;">Comfort pursuit</p>
+                                <p class = "text-low-gray text-left " style = "font-size: 14px;" >Had denoting properly jointure you occasion directly raillery. In said to of poor full be post face snug.</p>                                    
+                            </div>                       
+                         </div>
                       </div>
                 </section>
             </section>
-            <div class="flex container mx-auto px-12">
-                <div class=" self-center">
-                  <p class = "text-high-cyan text-left " >Increase your business traffic </p>
-                  <p class = "text-low-gray text-left mt-8" >We are committed to processing the information in order to contact you and talk about your project. </p>
-                    <button class="mt-12 text-butt-white " onclick="buton()"> Learn more</button>
+
+            <div class="md:flex container mx-auto mt-32"> 
+                <img class="tf_flex" src="./imgs/l_4.png"  alt="">
+                <div class=" container justify-center text-center md:text-left mt-32">
+                  <p class = "text-high-cyan md:text-left text-center" >Increase your business <font color="#F2994A">traffic</font> </p>
+                  <p class = "text-low-gray md:text-left text-center mt-8" >We are committed to processing the information in order to contact you and talk about your project. </p>
+                  <button class="mt-12 text-butt-white " onclick="buton()"> Learn more</button>
                 </div>
-                <section class="flex-none"> 
-                  <img class="" src="./imgs/l_4.png"  alt="">
-                </section>
+                  <img class="tf_none" src="./imgs/l_4.png"  alt="">
             </div>
+            
+
             <section class = "container mx-auto">
-                <p class = "text-high-cyan text-center mt-32" >3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</p>
+                <p class = "text-high-cyan text-center mt-32" >3 Simple Ways To <font color="#F2994A">Save</font>  A Bunch Of <font color="#F2994A"> Money</font> When Buying A New Computer</p>
                 <p class = "text-low-gray  text-center mt-6" >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>      
                 <section class="self-center mt-8">
                     <div class="justify-around mx-auto container flex" >
@@ -149,22 +173,21 @@
                             <p class = "text-low-gray  text-center " >A Discount Toner Cartridge</p>    
                             <p class = "text-low-gray  text-center " >Is Better Than Ever And You</p>    
                             <p class = "text-low-gray  text-center " >Will Save 50 Or More</p>    
-
-
                         </div>
                       </div>
                 </section>
             </section>
             <section class = "mx-auto container justify-center text-center mt-32">
-                <p class = "text-high-cyan text-center" >Create your next project with startup framework</p>
+                
+                <p class = "text-high-cyan text-center" >Create your <font color="#F2994A">next project</font>  with startup framework</p>
                 <section class="self-center container mx-auto ">
-                    <button class="mt-12 text-butt-white " onclick="buton()">Get started</button>
+                    <button class="mt-12 text-butt-white  onclick="buton()">Get started</button>
                 </section>
                 <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l6.png">
             </section>
             <div class="md:flex flex-none container mx-auto px-12 l7_bg ">
                 <div class=" self-center ">
-                  <p class = "text-high-cyan text-left " >Invest property for better business </p>
+                  <p class = "text-high-cyan text-left " >Invest property for better <font color="#F2994A">business</font>  </p>
                   <p class = "text-low-gray text-left mt-8" >We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information. </p>
                   <section class="self-center flexpx-8 md:px-0 ">
                     <button class="mt-12 text-butt-white  " onclick="buton()"> Learn more</button>
@@ -174,14 +197,14 @@
                   <img class=""  src="./imgs/l7.png"  alt="">
                 </section>
             </div>
-            <div class="container md:flex flex-none mx-auto">
-                <img class=" flex-none place-items-center md:flex md:items-center md:w-auto hidden self" src="./imgs/l8.png"  alt="">
+            <div class="container md:flex flex-none mx-auto mt-32">
+                <img class=" flex-none place-items-center md:flex md:items-center md:w-auto hidden " src="./imgs/l8.png"  alt="">
                 <div class="container self-center ">
                     <div class="self-start">
                       <p class = "text-high-cyan md:text-left " style = "font-size: 26px;">Help Finding Information Online</p>
                       <p class = "text-low-gray text-left " >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>
                     </div>
-                    <div class="grid grid-cols-2 gap-8 mx-auto container flex" >
+                    <div class="grid grid-cols-2 gap-8 mx-auto container flex mt-10" >
                         <div class="">
                             <img class="" src="./imgs/l8_p1.png"  alt="">
                             <p class = "text-high-cyan md:text-left " style = "font-size: 26px;">Feature One</p>
@@ -199,89 +222,98 @@
                     <img class="place-items-center  md:hidden text-center" src="./imgs/l8.png"  alt="">
                   </section>
                 </div>
-             <div class= "foot_logo mt-32">
-                 <div class= "bg-indigo-900 container mx-auto" style=" background-image: none; ">
-                    <p class= "text-center text-high-orange">There are many reasons to get down</p>
+             <div class= "foot_logo mt-32 "  >
+                 <div class= "bg-indigo-900 container mx-auto " style=" background: rgba(60, 62, 125, 0.2); backdrop-filter: blur(134px); border-radius: 5px;">
+                    <p class = "text-center md:text-white font-bold text-2xl opacity-0" >i</p>  
+                    <p class= "text-center text-high-orange mt-2">There are many reasons to get down</p>
                     <p class= "text-center text-low-gray mt-4">There are many reasons to get down and start to get depressed about your situation. </p>
-                    <section class="self-center container mx-auto text-center">
-                        <button class="mt-12 text-butt-white " onclick="buton()"> Learn more</button>
+                    <section class="self-center container mx-auto text-center py-2">
+                        <input autocomplete=on type="text" placeholder="You Email" class="py-2 " size="30" style = "background-color: #F6F6F6; opacity: 0.1; color: #8476AA; border-radius: 0.25rem; " required>
+                        <button class="mt-8 text-butt-white " onclick="buton()"> Send</button>
                     </section>
-                    <p class= "text-center text-bold mt-2" style = "color: #8476AA">No spam. Only releases, updates and discounts</p>
+                    <p class= "text-center text-bold mt-2" style = "color: #8476AA; margin-bottom:1rem;">No spam. Only releases, updates and discounts</p>
+                    <p class = "text-center md:text-white font-bold text-2xl opacity-0" >i</p>  
                 </div>
              </div>
     </body>
 
-    <footer class= "">
-        <div class="grid grid-cols-4 gap-4 mx-auto container flex" >
+    <footer class= "container mx-auto mt-48">
+        <div class="flex">
+            <p class= " text-high-orange">APShakir</p>
+            <div class="flex grid grid-cols-3 gap-4 " style="margin-left: auto;">
+                <img class="" src="./imgs/Google.png"  alt="">
+                <img class="" src="./imgs/Twitter.png"  alt="">
+                <img class="" src="./imgs/Facebook.png"  alt="">  
+            </div>
+        </div>
+        <div class="grid grid-cols-4 gap-4 container flex mt-16" >
             <div class="">
-                <p class= "text-center text-white ">First</p>
+                <p class= "text-white " style="font-weight: bold">First</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Second</p>
+                <p class= "text-white "style="font-weight: bold">Second</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Third</p>
+                <p class= "text-white "style="font-weight: bold">Third</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Fourth</p>
+                <p class= "text-white "style="font-weight: bold">Fourth</p>
             </div>
             <div>
-                <p class= "text-center text-white ">First page</p>
+                <p class= "text-white mt-2 ">First page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">First page</p>
+                <p class= "text-white mt-2 ">First page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">First page</p>
+                <p class= "text-white mt-2 ">First page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">First page</p>
+                <p class= "text-white mt-2 ">First page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Second page</p>
+                <p class= "text-white ">Second page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Second page</p>
+                <p class= "text-white ">Second page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Second page</p>
+                <p class= "text-white ">Second page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Second page</p>
+                <p class= "text-white ">Second page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Third page</p>
+                <p class= "text-white ">Third page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Third page</p>
+                <p class= "text-white ">Third page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Third page</p>
+                <p class= "text-white ">Third page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Third page</p>
+                <p class= "text-white ">Third page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Fourth page</p>
+                <p class= "text-white ">Fourth page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Fourth page</p>
+                <p class= "text-white ">Fourth page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Fourth page</p>
+                <p class= "text-white ">Fourth page</p>
             </div>
             <div>
-                <p class= "text-center text-white ">Fourth page</p>
+                <p class= "text-white ">Fourth page</p>
             </div>
           </div>
           
-            <div class= "flex mx-auto container self-center">
+            <div class= "flex-none md:flex mx-auto container self-center justify-around mt-32 " style = "color: #8D8D8D; ">
                 <p class= "text-center ">© Copyrights 2021</p>
-                <p class= "text-center ">Privacy policy1</p>
+                <p class= "text-center ">Privacy policy</p>
                 <p class= "text-center ">Terms of service</p>
             </div>
-
-
     </footer>
 
 </h
