@@ -9,9 +9,7 @@
   }
 }
 
-.foot_logo  {
-    background-color: RGB(37, 43, 66);
-}
+
 .text-orange {
     color: rgb(250, 74, 12);
 }
@@ -20,9 +18,12 @@
     background-color: rgb(250, 74, 12);
 }
 
+.foot_logo  {
+    background: url('imgs/l9_bg.png'); 
+}
 @media (min-width: 768px) {
     .foot_logo {
-        background: url('imgs/foot_p.png'); 
+        background: url('imgs/l9_bg.png'); 
   }
 }
 .opacity_100{
