@@ -13,9 +13,11 @@
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"
     />
 </head>
-    <header class= "bg-indigo-800">
-        <div class="flex w-1/2 pl-4 text-sm mx-auto">
-            <ul class="list-reset  justify-between md:flex items-center md:items-center hidden">
+
+    <header class= "">
+        <div class="flex pl-4 mx-auto  container">
+            <img class="self-center text-center" src="./imgs/Logo.png"  alt="">
+            <ul class=" md:flex  hidden self-center" style = "color: #B5B5B5;">               
                 <li class="mr-3">
                 <p class="font-bold ">ABOUT</p> 
                 </li>
@@ -26,34 +28,34 @@
                   <p class="font-bold px-8">PRICING</p>
                 </li>
                 <li class="mr-3">
-                  <p class="inline-block font-bold px-8">FAQ</p>
+                  <p class="font-bold px-8">FAQ</p>
                 </li>
                 <li class="mr-3">
-                  <p class="inline-block font-bold px-8">BENEFIS</p>
+                  <p class="font-bold px-8">BENEFIS</p>
                 </li>
               </ul>
-              <section class="self-center  ">
-                <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()">Sign in</button>
-                <button class="mb-48 bg-orange rounded-full py-3 px-20" onclick="buton()"> Sign up</button>
+              <section class="grid grid-cols-2 container flex">
+                <button class="self-center text-butt-orange py-3 px-20 " onclick="buton()">Sign in</button>
+                <button class="self-center text-butt-white py-3 px-20" onclick="buton()"> Sign up</button>
               </section>
           </div>
     </header>
 
-    <body class= "bg-indigo-800">
+    <body class= "bg-indigo-900">
         <div class="container md:flex flex-none mx-auto px-12">
             <section class=""> 
                 <img class="place-items-center  md:hidden text-center" src="./imgs/l1_logo.png"  alt="">
             </section>
             <div class="self-center">
-              <p class = "font-bold mx-auto text-orange text-2xl md:text-left text-center" >Many reasons to get up and start to get back in the business </p>
-              <p class = "font-bold mx-auto text-4xl md:text-left text-center" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
+              <p class = "text-high-cyan text-left">Many reasons to get up and start to get back in the business </p>
+              <p class = "text-low-gray text-left" >The harder you work for something, the greater you’ll feel when you achieve it.</p>
               <section class="self-center flexpx-8 md:px-0">
-                <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()"> Learn more</button>
-                <button class="mb-48 bg-orange rounded-full py-3 px-20" onclick="buton()"> Demo</button>
+                <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
+                <button class="mb-32 text-butt-orange  py-3 px-20" onclick="buton()"> Demo</button>
                 <section class= "flex self-center">
                     <img class="place-items-center text-center" src="./imgs/l2_play.png"  alt="">
-                    <p class = "font-bold text-orange  md:text-left " >The harder you work for something, the greater you’ll feel when you achieve it.</p>
-                    <p class = "font-bold md:text-left " >Watch preview</p>      
+                    <p class = "text-low-gray  md:text-left " >The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                    <p class = "flex-none font-bold md:text-left " >Watch preview</p>      
                 </section>
             </section>
             </div>
@@ -61,11 +63,11 @@
                 <img class="place-items-center md:flex md:items-center md:w-auto hidden self" src="./imgs/l1_logo.png"  alt="">
               </section>
             </div>
-            <img class="place-items-center mx-auto md:flex md:items-center md:w-auto hidden self" src="./imgs/l3_logos.png"  alt="">
-            <section>
-                <p class = "font-bold text-center " >Your choice</p>
-                <p class = "font-bold text-center " >There are many reasons to get down and start to get depressed about your situation. </p>      
-                <section class="self-center">
+            <img class="place-items-center opacity-50 hidden md:flex mt-16" src="./imgs/l3_logos.png"  alt="">
+            <section class="mt-16">
+                <p class = "text-high-cyan text-center " >Your choice</p>
+                <p class = "text-low-gray text-center " >There are many reasons to get down and start to get depressed about your situation. </p>      
+                <section class="self-center mt-8">
                     <div class="grid grid-cols-3 gap-4 mx-auto container flex" >
                         <div class="">
                             <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/gr_cr_1.png">
@@ -93,18 +95,16 @@
             </section>
             <div class="md:flex flex-none container mx-auto px-12">
                 <div class=" self-center">
-                  <p class = "font-bold mx-auto text-left" >Increase your business traffic </p>
-                  <p class = "font-bold mx-auto text-left" >We are committed to processing the information in order to contact you and talk about your project. </p>
-                  <section class="self-center flexpx-8 md:px-0">
-                    <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()"> Learn more</button>
-                    </section>
+                  <p class = "text-high-cyan text-left " >Increase your business traffic </p>
+                  <p class = "text-low-gray text-left mt-8" >We are committed to processing the information in order to contact you and talk about your project. </p>
+                    <button class="mt-12 text-butt-white  py-3 px-20 " onclick="buton()"> Learn more</button>
                 </div>
                 <section class=" self-center"> 
                   <img class="place-items-center" src="./imgs/l_4.png"  alt="">
                 </section>
             </div>
-            <section>
-                <p class = "font-bold text-center " >3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</p>
+            <section class = "container mx-auto">
+                <p class = "text-high-cyan text-center" >3 Simple Ways To Save A Bunch Of Money When Buying A New Computer</p>
                 <p class = "font-bold text-center " >Fully customizable and neatly organized components will help you work faster without limiting creative freedom.</p>      
                 <section class="self-center">
                     <div class="grid grid-cols-3 gap-4 mx-auto container flex" >
@@ -124,7 +124,7 @@
             <section class = "mx-auto container justify-cente text-center">
                 <p class = "font-bold text-center justify-cente " >Create your next project with startup framework</p>
                 <section class="self-center container mx-auto ">
-                    <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()"> Learn more</button>
+                    <button class="mt-12 bg-orange font-bold text-white py-3 px-20 " onclick="buton()"> Learn more</button>
                 </section>
                 <img class="place-items-center md:flex md:items-center md:w-auto self" src="./imgs/l6.png">
             </section>
@@ -133,7 +133,7 @@
                   <p class = "font-bold mx-auto text-left" >Invest property for better business </p>
                   <p class = "font-bold mx-auto text-left" >We are committed to processing the information in order to contact you and talk about your project. We are committed to processing the information. </p>
                   <section class="self-center flexpx-8 md:px-0">
-                    <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()"> Learn more</button>
+                    <button class="mt-12 bg-orange font-bold text-white py-3 px-20 " onclick="buton()"> Learn more</button>
                     </section>
                 </div>
                 <section class=" self-center"> 
@@ -165,14 +165,14 @@
                     <p class= "text-center">There are many reasons to get down</p>
                     <p class= "text-center">There are many reasons to get down and start to get depressed about your situation. </p>
                     <section class="self-center container mx-auto text-center">
-                        <button class="mt-12 bg-orange font-bold text-white rounded-full py-3 px-20 " onclick="buton()"> Learn more</button>
+                        <button class="mt-12 bg-orange font-bold text-white py-3 px-20 " onclick="buton()"> Learn more</button>
                     </section>
                     <p class= "text-center">No spam. Only releases, updates and discounts</p>
                 </div>
              </div>
     </body>
 
-    <footer class= "bg-indigo-800">
+    <footer class= "">
         <div class="grid grid-cols-4 gap-4 mx-auto container flex" >
             <div class="">
                 <p class= "text-center text-white ">First</p>
